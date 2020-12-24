@@ -1,0 +1,25 @@
+*lib
+*bin
+*include
+*.Python
+*db.sqlite3
+*omissis.py
+*.pyc
+*pip-selfcheck.json
+.DS_Store
+
+src/*
+deploy/*
+
+build-*
+
+
+# LOG
+arermanagement.log
+
+# DEV DB
+arerdb_test.sqlite3
+
+
+# privacy
+docker-entrypoint-initdb.d/*.sql
