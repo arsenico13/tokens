@@ -1127,7 +1127,7 @@ def main():
 };{
 	[if( json.type( object ) == "ARRAY" && isNumber( key ) ), code:
 	{
-		[h, if( json.length( object ) > key ): 
+		[h, if( json.length( object ) > key ):
 			macro.return = json.get( object, key ) ;
 			macro.return = default )]
 	};{
@@ -1259,7 +1259,7 @@ def main():
 [h,if(argCount() > 9): output = arg(9); output = "none")]
 
 [h:btnformat	= strformat("padding:1px; border-width:1pt; border-style:solid; border-color:black; text-align:center; white-space:nowrap; background-image:url(%{shadow}); background-color:%{bgColor};")]
- 
+
 <td width='[r:arg(0)]%'>
 	<table width='100%' cellpadding='0' cellspacing='0'>
 		<tr>

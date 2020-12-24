@@ -63,6 +63,11 @@ Trick: The look an feel of text in the Maptool splash screen sucks. I found out 
 * POI token images stolen from Phergus number tokens
 * Tome Of the Beast public data, buy their book to support their work
 
+## Developemnt
+
+The code is written in `python 2`. Create a `virtualenv` and install the `requirements`.
+Download the `5e-database` and put the folder at the same level as this repo.
+
 
 ## Changelogs
 
