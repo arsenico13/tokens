@@ -2,3 +2,10 @@
 bin/
 lib/
 pyvenv.cfg
+
+
+# virtualenv
+.Python
+*.pyc
+include/
+pip-selfcheck.json
