@@ -6,7 +6,7 @@ These a specifically aimed at:
 * face to face play
 * online play, with minimum automated management. Some players love to roll dice and track their HP
 
-These tokens won't add anything to you campaign settings, they are drop-in macros. They can be dragged into any exisiting campaign session.
+These tokens won't add anything to your campaign settings, they are drop-in macros. They can be dragged into any exisiting campaign session.
 Updating them is as trivial as dragging tokens into your maptool map.
 
 If you are searching for fully automated frameworks, they are more heavy frameworks to be found on the maptool forum.
@@ -96,4 +96,3 @@ Trick: The look an feel of text in the Maptool splash screen sucks. I found out 
 * add rolls for saving throws
 * add an init button to auto add and set a NPC token to the init windows
 * fix a lot of issues with non ascii characters messing with the monsters sheet
-
