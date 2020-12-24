@@ -1,25 +1,11 @@
-*lib
-*bin
-*include
-*.Python
-*db.sqlite3
-*omissis.py
+# python3 venv
+bin/
+lib/
+*pyvenv.cfg
+
+
+# virtualenv
+.Python
 *.pyc
-*pip-selfcheck.json
-.DS_Store
-
-src/*
-deploy/*
-
-build-*
-
-
-# LOG
-arermanagement.log
-
-# DEV DB
-arerdb_test.sqlite3
-
-
-# privacy
-docker-entrypoint-initdb.d/*.sql
+include/
+pip-selfcheck.json
